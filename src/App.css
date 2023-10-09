@@ -1,38 +1,118 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Borel&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Borel", cursive;
+}
+
+nav {
+  background-color: rgb(57, 137, 208);
+  padding: 10px;
   text-align: center;
+  font-size: 1.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navabar {
+  background-color: rgb(195, 110, 131);
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 0 20px rgb(119, 160, 196);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navabar > a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+.navabar > a:hover{
+  font-size: 1.5rem;
+  color: wheat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+  width: 50%;
+  font-size: 1.2rem;
+}
+form{
+  background-color: blanchedalmond;
+  padding-bottom: 30px;
+}
+h1 {
+  margin: auto;
+  padding-top: 30px;
+}
+
+.container > form {
+  margin: auto;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: rgba(58, 159, 176, 0.6);
+  border: 3px solid rgb(223, 131, 223);
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(75, 144, 156, 0.6);
+}
+
+.task {
+  display: flex;
+  margin: 50px 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.task > div {
+  width: 100%;
+}
+
+.task button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: crimson;
+}
+
+.task button:hover {
+  background-color: brown;
+}
+
+.about{
+  background-color: yellow;
+  width: 100%;
+  height: 100vh;
+}
+.contact{
+  background-color: rgb(130, 161, 65);
+  width: 100%;
+  height: 100vh;
+}
+.user{
+  background-color: rgb(126, 111, 180);
+  width: 100%;
+  height: 100vh;
+}
+.footer{
+  background-color: rgb(77, 74, 74);
+  width: 100%;
+  height: 30vh;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
