@@ -2,7 +2,7 @@
 
 A simple and user-friendly To-Do List web application built using React, where users can add tasks and remove completed tasks.
 
-![user interface](user-interface.png)
+![user interface](https://github.com/shibu69/TO-DO-LIST/blob/master/src/Components/Images/user-interface.png)
 
 
 ## Features
@@ -11,7 +11,7 @@ A simple and user-friendly To-Do List web application built using React, where u
 - Remove completed tasks.
 - Local storage to persist tasks even after refreshing the page.
 
-![add task](task-added.png)
+![add task](https://github.com/shibu69/TO-DO-LIST/blob/master/src/Components/Images/task-added.png)
 
 ## Technologies Used
 
